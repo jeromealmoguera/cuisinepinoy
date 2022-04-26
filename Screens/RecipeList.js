@@ -19,7 +19,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 // const Stack = createStackNavigator();
 export default class RecipeList extends Component {
   componentDidMount() {
-    console.log(this.props.route.params);
     if (this.props.route.recipe) {
       console.log(this.props.route.recipe);
     }
@@ -33,6 +32,9 @@ export default class RecipeList extends Component {
           <Text style={styles.name}>{this.props.route.params.name}</Text>
           <Text style={styles.description}>
             {this.props.route.params.description}
+          </Text>
+          <Text style={styles.ingredients}>
+            {this.props.route.params.ingredients}
           </Text>
           <Text>{this.props.route.params.recipe}</Text>
         </View>

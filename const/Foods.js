@@ -5,8 +5,16 @@ const foods = [
     id: "1",
     name: "Goto",
     description: "Ito ay parang lugaw din",
-    ingredients: "Mixed Pizza",
-    price: "8.30",
+    ingredients: [
+      "1 cup rice",
+      " 200 grams boiled and tender ox tripe ( tuwalya ng baka)",
+      " 1/4 cup ginger strips",
+      " 3 stalks spring onions",
+      " salt and pepper to taste",
+      " fish sauce( patis=optional)",
+      " 1 litre of water or more",
+      " 1/4 cup toasted garlic",
+    ],
     image: require("../assets/recipes/goto.jpg"),
   },
   {
@@ -14,7 +22,6 @@ const foods = [
     name: "Ginataang Alimasag",
     description: "Alimasag na may gata",
     ingredients: "Cheese Pizza",
-    price: "7.10",
     image: require("../assets/recipes/ginataang-alimasag.jpg"),
   },
   {
@@ -22,7 +29,6 @@ const foods = [
     name: "Tinolang Manok",
     description: "Ito ay isang uri ng chicken soup sa bansang Pilipinas",
     ingredients: "Fried Chicken",
-    price: "5.10",
     recipe: tinola,
     image: require("../assets/recipes/tinola-manok.jpg"),
   },
@@ -31,7 +37,6 @@ const foods = [
     name: "Sinangag",
     description: "Fried rice sa English",
     ingredients: "Salmon Meat",
-    price: "9.55",
     image: require("../assets/recipes/sinangag.jpg"),
   },
 ];

@@ -97,6 +97,7 @@ export default class FoodList extends Component {
                       description: item.description,
                       image: item.image,
                       recipe: item.recipe,
+                      ingredients: item.ingredients,
                     });
                   }}
                 >
