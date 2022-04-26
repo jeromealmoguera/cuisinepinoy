@@ -42,10 +42,10 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 22,
     top: 28,
-    fontFamily: "Raleway2",
+    fontFamily: "RalewayBlack",
   },
   subtitle: {
-    fontFamily: "Raleway8",
+    fontFamily: "RalewayMedium",
     fontSize: 15,
     color: "black",
     position: "absolute",

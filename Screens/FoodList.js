@@ -28,13 +28,13 @@ export default class FoodList extends Component {
   async loadAssetsAsync() {
     await Font.loadAsync({
       Raleway: require("../assets/fonts/Raleway.ttf"),
-      Raleway2: require("../assets/fonts/Raleway-Black.ttf"),
-      Raleway3: require("../assets/fonts/Raleway-Bold.ttf"),
-      Raleway4: require("../assets/fonts/Raleway-SemiBold.ttf"),
-      Raleway5: require("../assets/fonts/Raleway-Italic.ttf"),
-      Raleway6: require("../assets/fonts/Raleway-Light.ttf"),
-      Raleway7: require("../assets/fonts/Raleway-Thin.ttf"),
-      Raleway8: require("../assets/fonts/Raleway-Medium.ttf"),
+      RalewayBlack: require("../assets/fonts/Raleway-Black.ttf"),
+      RalewayBold: require("../assets/fonts/Raleway-Bold.ttf"),
+      RalewaySemiBold: require("../assets/fonts/Raleway-SemiBold.ttf"),
+      RalewayItalic: require("../assets/fonts/Raleway-Italic.ttf"),
+      RalewayLight: require("../assets/fonts/Raleway-Light.ttf"),
+      RalewayThin: require("../assets/fonts/Raleway-Thin.ttf"),
+      RalewayMedium: require("../assets/fonts/Raleway-Medium.ttf"),
     });
     this.setState({ fontLoaded: true });
   }
@@ -44,7 +44,7 @@ export default class FoodList extends Component {
       return null; // render some progress indicator
     }
     return (
-      <SafeAreaView style={{ flex: 1, backgroundColor: "#FFF9E9" }}>
+      <View style={{ flex: 1, backgroundColor: "#FFF9E9" }}>
         <View
           style={{
             flex: 1,
@@ -96,6 +96,7 @@ export default class FoodList extends Component {
                       name: item.name,
                       description: item.description,
                       image: item.image,
+                      recipe: item.recipe,
                     });
                   }}
                 >
@@ -111,7 +112,7 @@ export default class FoodList extends Component {
             }}
           />
         </View>
-      </SafeAreaView>
+      </View>
     );
   }
 }
@@ -120,11 +121,11 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 40,
     color: "black",
-    fontFamily: "Raleway2",
+    fontFamily: "RalewayBlack",
     position: "absolute",
   },
   subTitle: {
-    fontFamily: "Raleway8",
+    fontFamily: "RalewayMedium",
     fontSize: 15,
     color: "black",
     position: "absolute",
@@ -155,7 +156,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   itemList: {
-    height: "50%",
+    // height: "50%",
     margin: 5,
     padding: 5,
     borderRadius: 10,
@@ -166,12 +167,12 @@ const styles = StyleSheet.create({
   mainList: {
     flex: 1,
     top: 150,
+    marginBottom: 130,
   },
   name: {
     width: "50%",
-    fontSize: 15,
-
-    fontFamily: "Raleway3",
+    fontSize: 18,
+    fontFamily: "RalewayBold",
   },
   description: {
     width: "50%",
@@ -179,13 +180,10 @@ const styles = StyleSheet.create({
     fontFamily: "Raleway",
   },
   image: {
-    opacity: 0.99,
     width: "50%",
-    height: "100%",
-    resizeMode: "cover",
+    height: 150,
     borderRadius: 10,
     position: "absolute",
-    bottom: 0,
     right: 0,
   },
 });

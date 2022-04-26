@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Image, Dimensions, View, Text } from "react-native";
 import CountDown from "react-native-countdown-component";
-import Swiper from "react-native-swiper";
+import Swiper from "react-native-swiper/src";
 const { width } = Dimensions.get("window");
 
 import Steps from "../const/tinola";

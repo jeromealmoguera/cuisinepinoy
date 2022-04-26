@@ -1,3 +1,5 @@
+import tinola from "../const/tinola";
+
 const foods = [
   {
     id: "1",
@@ -21,7 +23,7 @@ const foods = [
     description: "Ito ay isang uri ng chicken soup sa bansang Pilipinas",
     ingredients: "Fried Chicken",
     price: "5.10",
-    recipe: "./recipes/TinolangManok.js",
+    recipe: tinola,
     image: require("../assets/recipes/tinola-manok.jpg"),
   },
   {
