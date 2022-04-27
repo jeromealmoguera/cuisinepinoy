@@ -59,7 +59,7 @@ render(){
           <Text style={{fontSize: 15, color:"black" }}>1. Cook spaghetti noodles according to package instructions.</Text>
           <Text style={{fontSize: 15, color:"black" }}>2. In a sauce pan or wok, sautÃ© garlic and onions in cooking oil.</Text>
           <Text style={{fontSize: 15, color:"black" }}>3. Add ground beef, ground pork, laurel leaves, bell pepper and a cup of water. Bring to a boil and let simmer for 10 minutes.</Text>
-          <Text style={{fontSize: 15, color:"black" }}>4. Add tomato sauce, salt and pepper to taste then let simmer for another 10 minutes</Text>
+          <Text style={{fontSize: 15, color:"black" }}>4. Add tomato sauce, salt and pepper to taste then let simmer for another 10 minutes.</Text>
           <Text style={{fontSize: 15, color:"black" }}>5. Add brown sugar and hotdogs. Continue to simmer for an additional 5 minutes.</Text>
           <Text style={{fontSize: 15, color:"black" }}>6. Serve with the cooked spaghetti noodles and grated cheese on top.</Text>
               
