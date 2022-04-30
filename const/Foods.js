@@ -1,4 +1,6 @@
-import tinola from "../const/tinola";
+// import tinola from "../const/tinola";
+
+import * as Recipe from "../const";
 
 const foods = [
   {
@@ -15,6 +17,7 @@ const foods = [
       " 1 litre of water or more",
       " 1/4 cup toasted garlic",
     ],
+    recipe: Recipe.tinola,
     image: require("../assets/recipes/goto.jpg"),
   },
   {
@@ -29,7 +32,7 @@ const foods = [
     name: "Tinolang Manok",
     description: "Ito ay isang uri ng chicken soup sa bansang Pilipinas",
     ingredients: "Fried Chicken",
-    recipe: tinola,
+    recipe: Recipe.tinola,
     image: require("../assets/recipes/tinola-manok.jpg"),
   },
   {
