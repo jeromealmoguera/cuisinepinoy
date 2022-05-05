@@ -46,11 +46,11 @@ render(){
 
           <Text style={{fontSize: 18, color:"black" }}>Directions</Text>
 
-          <Text style={{fontSize: 15, color:"black" }}>1. Roll the banana on the brown sugar plate and ensure that the banana is coated with enough sugar</Text>
-          <Text style={{fontSize: 15, color:"black" }}>2. Place the banana with sugar coating in the spring roll wrapper and add some ripe jackfruit</Text>
-          <Text style={{fontSize: 15, color:"black" }}>3. Fold and lock the spring roll wrapper, use water to seal the edge</Text>
-          <Text style={{fontSize: 15, color:"black" }}>4. In a pan, heat the oil and put-in some brown sugar.Wait until the brown sugar floats</Text>
-          <Text style={{fontSize: 15, color:"black" }}>5. Put-in the wrapped banana and fry until the wrapper turns golden brown and the extra sugar sticks on wrapper</Text>
+          <Text style={{fontSize: 15, color:"black" }}>1. Roll the banana on the brown sugar plate and ensure that the banana is coated with enough sugar.</Text>
+          <Text style={{fontSize: 15, color:"black" }}>2. Place the banana with sugar coating in the spring roll wrapper and add some ripe jackfruit.</Text>
+          <Text style={{fontSize: 15, color:"black" }}>3. Fold and lock the spring roll wrapper, use water to seal the edge.</Text>
+          <Text style={{fontSize: 15, color:"black" }}>4. In a pan, heat the oil and put-in some brown sugar.Wait until the brown sugar floats.</Text>
+          <Text style={{fontSize: 15, color:"black" }}>5. Put-in the wrapped banana and fry until the wrapper turns golden brown and the extra sugar sticks on wrapper.</Text>
           <Text style={{fontSize: 15, color:"black" }}>6. Serve hot during dessert or meryenda. Share and Enjoy!</Text>
               
         </ScrollView>
