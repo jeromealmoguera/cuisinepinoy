@@ -28,13 +28,14 @@ export default class FoodList extends Component {
   async loadAssetsAsync() {
     await Font.loadAsync({
       Raleway: require("../assets/fonts/Raleway.ttf"),
-      RalewayBlack: require("../assets/fonts/Raleway-Black.ttf"),
-      RalewayBold: require("../assets/fonts/Raleway-Bold.ttf"),
-      RalewaySemiBold: require("../assets/fonts/Raleway-SemiBold.ttf"),
       RalewayItalic: require("../assets/fonts/Raleway-Italic.ttf"),
-      RalewayLight: require("../assets/fonts/Raleway-Light.ttf"),
       RalewayThin: require("../assets/fonts/Raleway-Thin.ttf"),
+      RalewayLight: require("../assets/fonts/Raleway-Light.ttf"),
       RalewayMedium: require("../assets/fonts/Raleway-Medium.ttf"),
+      RalewaySemiBold: require("../assets/fonts/Raleway-SemiBold.ttf"),
+      RalewayBold: require("../assets/fonts/Raleway-Bold.ttf"),
+      RalewayExtraBold: require("../assets/fonts/Raleway-ExtraBold.ttf"),
+      RalewayBlack: require("../assets/fonts/Raleway-Black.ttf"),
     });
     this.setState({ fontLoaded: true });
   }
@@ -95,6 +96,7 @@ export default class FoodList extends Component {
                     this.props.navigation.navigate("RecipeList", {
                       name: item.name,
                       description: item.description,
+                      fullDescription: item.fullDescription,
                       image: item.image,
                       recipe: item.recipe,
                       ingredients: item.ingredients,
@@ -173,7 +175,7 @@ const styles = StyleSheet.create({
   name: {
     width: "50%",
     fontSize: 18,
-    fontFamily: "RalewayBold",
+    fontFamily: "RalewayExtraBold",
   },
   description: {
     width: "50%",

@@ -6,9 +6,12 @@ const foods = [
   {
     id: "1",
     name: "Goto",
-    description: "Ito ay parang lugaw din",
+    description:
+      "Goto has been famous in the Philippines because it is affordable and can easily satisfy hunger.",
+    fullDescription:
+      "Goto is a type of rice porridge with innards of either pig or cow. This Special Goto Recipe uses both ox tripe and pig intestine. Goto has been famous in the Philippines because it is affordable and can easily satisfy hunger. This has also been a breakfast favorite and a rainy day comfort food.",
     ingredients: [
-      "1 cup rice",
+      " 1 cup rice",
       " 200 grams boiled and tender ox tripe ( tuwalya ng baka)",
       " 1/4 cup ginger strips",
       " 3 stalks spring onions",
