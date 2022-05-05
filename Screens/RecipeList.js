@@ -11,6 +11,7 @@ import {
   Button,
 } from "react-native";
 // import { createStackNavigator } from "@react-navigation/stack";
+import { Ionicons } from "@expo/vector-icons";
 
 import Foods from "../const/Foods";
 import * as Font from "expo-font";
@@ -29,6 +30,13 @@ export default class RecipeList extends Component {
     return (
       <View style={styles.container}>
         <Image style={styles.image} source={this.props.route.params.image} />
+        <TouchableOpacity
+          style={styles.backButton}
+          title="Go to Recipes"
+          onPress={() => this.props.navigation.navigate("FoodList")}
+        >
+          <Ionicons name="chevron-back-outline" size={35} color="#000000" />
+        </TouchableOpacity>
         <View style={styles.content}>
           <ScrollView
             style={styles.contentContainer}
@@ -74,9 +82,9 @@ const styles = StyleSheet.create({
     margin: 20,
   },
   name: {
-    marginTop: -20,
+    marginTop: -10,
     width: "100%",
-    fontSize: 50,
+    fontSize: 40,
     color: "black",
     fontFamily: "RalewayExtraBold",
   },
@@ -110,11 +118,23 @@ const styles = StyleSheet.create({
     height: 200,
     position: "absolute",
   },
+  backButton: {
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 5,
+
+    margin: 10,
+    height: 40,
+    width: 40,
+    borderRadius: 25,
+    backgroundColor: "#fec633",
+  },
   button: {
     display: "flex",
     marginLeft: "auto",
     marginRight: "auto",
-    paddingTop: -30,
     marginTop: 30,
     height: 50,
     width: "70%",
