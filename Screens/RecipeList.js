@@ -119,16 +119,17 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   backButton: {
-    shadowColor: "#000",
+    shadowColor: "#000000",
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.8,
-    shadowRadius: 2,
+    shadowRadius: 3,
     elevation: 5,
 
     margin: 10,
     height: 40,
     width: 40,
     borderRadius: 25,
+    justifyContent: "center",
     backgroundColor: "#fec633",
   },
   button: {
