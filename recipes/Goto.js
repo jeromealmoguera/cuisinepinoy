@@ -53,7 +53,7 @@ export default class Goto extends Component {
           }}
         >
           <Text style={{ margin: 20, fontSize: 24, color: "black" }}>Goto</Text>
-          <Text style={{ fontSize: 18, color: "black" }}>Ingredients</Text>
+          <Text style={{ fontSize: 18, color: "black" }}>INGREDIENTS</Text>
 
           <Text style={{ fontSize: 15, color: "black" }}>1 cup rice</Text>
           <Text style={{ fontSize: 15, color: "black" }}>

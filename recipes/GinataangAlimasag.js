@@ -36,7 +36,7 @@ render(){
           position: 'absolute',
           bottom: 0}}>
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Ginataang Alimasag</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>3 lbs blue crabs (Alimasag)</Text>
           <Text style={{fontSize: 15, color:"black" }}>2 tbsp shrimp paste</Text>

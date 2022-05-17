@@ -37,7 +37,7 @@ render(){
           bottom: 0}}>
 
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Pinakbet</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>1/2 pound pork (liempo with skin & fat)</Text>
           <Text style={{fontSize: 15, color:"black" }}>4 Cloves garlic</Text>

@@ -36,7 +36,7 @@ render(){
           position: 'absolute',
           bottom: 0}}>
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Turon</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>6 pcs saba bananas (or plantains), cut in half (lenghtwise)</Text>
           <Text style={{fontSize: 15, color:"black" }}>1 cup ripe Jackfruit</Text>

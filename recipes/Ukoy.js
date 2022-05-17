@@ -37,7 +37,7 @@ render(){
           bottom: 0}}>
 
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Ukoy</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>3 cups silverfish</Text>
           <Text style={{fontSize: 15, color:"black" }}>1 tsp salt</Text>

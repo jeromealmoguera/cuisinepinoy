@@ -37,7 +37,7 @@ render(){
           bottom: 0}}>
 
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Ginisang Ampalaya with egg</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>1 big size ampalaya, cut in half deseeded and sliced crosswise</Text>
           <Text style={{fontSize: 15, color:"black" }}>4 pcs. egg, beaten</Text>

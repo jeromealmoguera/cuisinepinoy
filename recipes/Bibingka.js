@@ -37,7 +37,7 @@ render(){
           bottom: 0}}>
 
           <Text style={{marginLeft:20,marginBottom:20,fontSize: 24, color:"black" }}>Bibingka</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>2 cups all purpose flour</Text>
           <Text style={{fontSize: 15, color:"black" }}>2 tsp baking powder</Text>
