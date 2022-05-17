@@ -43,7 +43,7 @@ render(){
           <Text style={{fontSize: 15, color:"black" }}>4 pcs. egg, beaten</Text>
           <Text style={{fontSize: 15, color:"black" }}>1/4 head garlic, minced</Text>
           <Text style={{fontSize: 15, color:"black" }}>1 medium size onion, chopped</Text>
-          <Text style={{fontSize: 15, color:"black" }}>salt and pepper</Text>
+          <Text style={{fontSize: 15, color:"black" }}>Salt and pepper</Text>
           <Text style={{marginBottom:20,fontSize: 15, color:"black" }}>vegetable oil</Text>
 
           <Text style={{fontSize: 18, color:"black" }}>Directions</Text>

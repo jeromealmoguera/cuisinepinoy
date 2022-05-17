@@ -46,7 +46,7 @@ render(){
           <Text style={{fontSize: 15, color:"black" }}>1/2 cup celery, chopped</Text>
           <Text style={{fontSize: 15, color:"black" }}>2 eggs beaten</Text>
           <Text style={{fontSize: 15, color:"black" }}>1 cup flour</Text>
-          <Text style={{fontSize: 15, color:"black" }}>cooking oil for frying</Text>
+          <Text style={{fontSize: 15, color:"black" }}>Cooking oil for frying</Text>
           <Text style={{fontSize: 15, color:"black" }}>Dipping Sauce:</Text>
           <Text style={{fontSize: 15, color:"black" }}>1/4 cup vinegar</Text>
           <Text style={{fontSize: 15, color:"black" }}>3 cloves garlic chopped</Text>
