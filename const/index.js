@@ -1,5 +1,5 @@
 import AdobongIsda from "./AdobongIsda";
 import AdobongSitaw from "./AdobongSitaw";
-import tinola from "./tinola";
+import Tinola from "./tinola";
 
-export { AdobongIsda, AdobongSitaw, tinola };
+export { AdobongIsda, AdobongSitaw, Tinola };

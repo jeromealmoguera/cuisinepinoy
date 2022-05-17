@@ -21,8 +21,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 // const Stack = createStackNavigator();
 export default class RecipeList extends Component {
   componentDidMount() {
-    if (this.props.route.recipe) {
-      console.log(this.props.route.recipe);
+    if (this.props.route.params.recipe) {
+      console.log(this.props.route.params.recipe);
     }
   }
 
@@ -43,7 +43,9 @@ export default class RecipeList extends Component {
             showsVerticalScrollIndicator={false}
           >
             <Text style={styles.name}>{this.props.route.params.name}</Text>
-
+            <Text style={styles.category}>
+              {this.props.route.params.category}
+            </Text>
             <Text style={styles.about}>About the Food</Text>
             <Text style={styles.description}>
               {this.props.route.params.fullDescription}
@@ -54,7 +56,18 @@ export default class RecipeList extends Component {
               {this.props.route.params.ingredients}
             </Text>
 
-            <TouchableOpacity style={styles.button}>
+            {/* <Text>{this.props.route.params.recipe}</Text> */}
+
+            <TouchableOpacity
+              data={Foods}
+              style={styles.button}
+              keyExtractor={(item) => item.id}
+              onPress={() => {
+                this.props.navigation.navigate("Dummy", {
+                  recipe: this.props.route.params.recipe,
+                });
+              }}
+            >
               <Text style={styles.buttonText}>Cook Now</Text>
             </TouchableOpacity>
           </ScrollView>
@@ -82,15 +95,25 @@ const styles = StyleSheet.create({
     margin: 20,
   },
   name: {
+    // textTransform: "uppercase",
     marginTop: -10,
     width: "100%",
-    fontSize: 40,
+    fontSize: 45,
     color: "black",
     fontFamily: "RalewayExtraBold",
   },
+  category: {
+    paddingLeft: 8,
+    paddingRight: 8,
+    borderRadius: 25,
+    fontSize: 15,
+    fontFamily: "Raleway",
+    alignSelf: "flex-start",
+    backgroundColor: "#f69250",
+  },
   about: {
     fontSize: 15,
-    marginTop: 10,
+    marginTop: 20,
     fontFamily: "RalewayBold",
   },
   description: {

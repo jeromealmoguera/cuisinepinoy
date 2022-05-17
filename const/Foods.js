@@ -1,6 +1,6 @@
-// import tinola from "../const/tinola";
+import tinola from "../const/tinola";
 
-import * as Recipe from "../const";
+// import * as Recipe from "../const";
 
 const foods = [
   {
@@ -21,16 +21,17 @@ const foods = [
       " \u2022 1 litre of water or more \n",
       " \u2022 1/4 cup toasted garlic",
     ],
-    recipe: Recipe.tinola,
+    recipe: tinola,
     image: require("../assets/recipes/goto.jpg"),
   },
   {
     id: "2",
     name: "Ginataang Alimasag",
     category: "Lunch",
-    description: "Ginataang Alimasag (or alimango) are Crabs cooked in Coconut Milk.",
+    description:
+      "Ginataang Alimasag (or alimango) are Crabs cooked in Coconut Milk.",
     fullDescription:
-    "Ginataang Alimasag (or alimango) are Crabs cooked in Coconut Milk. This ginataang alimasag  recipe features the use of spinach and Thai chili as a replacement for Malunggay. Squash and string beans (kalabasa and sitaw) can also be placed instead of Spinach .",
+      "Ginataang Alimasag (or alimango) are Crabs cooked in Coconut Milk. This ginataang alimasag  recipe features the use of spinach and Thai chili as a replacement for Malunggay. Squash and string beans (kalabasa and sitaw) can also be placed instead of Spinach .",
     ingredients: [
       " \u2022 3 lbs blue crabs (Alimasag) \n",
       " \u2022 2 tbsp shrimp paste \n",
@@ -50,9 +51,10 @@ const foods = [
     id: "3",
     name: "Tinolang Manok",
     category: "Lunch",
-    description: "Chicken tinola is a staple in every Filipino household and can be enjoyed as a starter or a hearty main course.",
+    description:
+      "Chicken tinola is a staple in every Filipino household and can be enjoyed as a starter or a hearty main course.",
     fullDescription:
-    "Tinolang manok or chicken tinola is a nourishing Filipino chicken soup. It can consist of various chicken cuts and internal organs cooked in a flavorful broth alongside green papaya and chili pepper or malunggay leaves. The broth is usually generously seasoned with ginger, garlic, and fish sauce, and the soup is often served over plain white rice.",
+      "Tinolang manok or chicken tinola is a nourishing Filipino chicken soup. It can consist of various chicken cuts and internal organs cooked in a flavorful broth alongside green papaya and chili pepper or malunggay leaves. The broth is usually generously seasoned with ginger, garlic, and fish sauce, and the soup is often served over plain white rice.",
     ingredients: [
       " \u2022 2 lbs. chicken cut into serving pieces \n",
       " \u2022 1 cup malunggay leaves \n",
@@ -67,16 +69,17 @@ const foods = [
       " \u2022 2 tablespoons fish sauce patis \n",
       " \u2022 3 tablespoons vegetable oil",
     ],
-    recipe: Recipe.tinola,
+    recipe: tinola,
     image: require("../assets/recipes/tinola-manok.jpg"),
   },
   {
     id: "4",
     name: "Sinangag",
     category: "Breakfast",
-    description: "Sinangag is pronounced see-na-nag. Filipino garlic fried rice is typically made using day old rice.",
+    description:
+      "Sinangag is pronounced see-na-nag. Filipino garlic fried rice is typically made using day old rice.",
     fullDescription:
-    "Sinangag is Filipino garlic fried rice. It is a popular side to almost all Filipino breakfast dishes. It often made using leftover or day old rice. Sinangag is pronounced see-na-nag.",
+      "Sinangag is Filipino garlic fried rice. It is a popular side to almost all Filipino breakfast dishes. It often made using leftover or day old rice. Sinangag is pronounced see-na-nag.",
     ingredients: [
       " \u2022 4 cups of leftover rice; cold and well preserved \n",
       " \u2022 1 small Carrot chopped \n",
@@ -95,9 +98,10 @@ const foods = [
     id: "5",
     name: "Adobong Isda",
     category: "Lunch",
-    description: "Fish Adobo is a Filipino dish wherein fish is cooked using the inadobo style or method of cooking",
+    description:
+      "Fish Adobo is a Filipino dish wherein fish is cooked using the inadobo style or method of cooking",
     fullDescription:
-    "Fish Adobo is a Filipino dish wherein fish is cooked using the inadobo style or method of cooking. Inadobo (sometimes referred to as adobo) is the Filipino way of cooking food by cooking in soy sauce, vinegar, and garlic. Along with these ingredients are pepper or whole pepper corn, and dried bay leaves. This is considered as the signature dish of the Philippines.",
+      "Fish Adobo is a Filipino dish wherein fish is cooked using the inadobo style or method of cooking. Inadobo (sometimes referred to as adobo) is the Filipino way of cooking food by cooking in soy sauce, vinegar, and garlic. Along with these ingredients are pepper or whole pepper corn, and dried bay leaves. This is considered as the signature dish of the Philippines.",
     ingredients: [
       " \u2022 1/2 kilo Sapsap \n",
       " \u2022 1 kilo Tilapia ( Cleaned and sliced) \n",
@@ -115,9 +119,10 @@ const foods = [
     id: "6",
     name: "Adobong Sitaw",
     category: "Lunch",
-    description: "Adobong Sitaw is a vegetable dish composed of string beans cooked adobo style.",
+    description:
+      "Adobong Sitaw is a vegetable dish composed of string beans cooked adobo style.",
     fullDescription:
-    "Adobong Sitaw is a vegetable dish composed of string beans cooked adobo style. Adobong Sitaw with Pork made of long beans and pork belly is an easy weeknight dinner that packs great flavors! This adobo-style vegetable dish is hearty, tasty, and pairs well with steamed rice.",
+      "Adobong Sitaw is a vegetable dish composed of string beans cooked adobo style. Adobong Sitaw with Pork made of long beans and pork belly is an easy weeknight dinner that packs great flavors! This adobo-style vegetable dish is hearty, tasty, and pairs well with steamed rice.",
     ingredients: [
       " \u2022 1 lb string beans (sitaw), cut in 2 inch length \n",
       " \u2022 1/4 lb pork belly, thinly sliced (optional) \n",
@@ -134,9 +139,10 @@ const foods = [
     id: "7",
     name: "Ginisang Ampalaya",
     category: "Lunch",
-    description: "Ginisang Ampalaya is a stir-fried bitter melon in garlic, onion, tomato, spices, and seasonings. ",
+    description:
+      "Ginisang Ampalaya is a stir-fried bitter melon in garlic, onion, tomato, spices, and seasonings. ",
     fullDescription:
-    "Ginisang Ampalaya is a stir-fried bitter melon in garlic, onion, tomato, spices, and seasonings. The thought we often associate with “ampalaya” is bitterness and a generally unpleasant taste. And while it is true that this vegetable holds this flavor— after all, it is called a bitter melon— it doesn’t always have to taste unfavorable. Some ampalaya can initially have that overpowering bitterness, but with the right preparations, it can actually taste satisfyingly flavorful and delicious. A classic dish that utilizes this unique flavor is Ginisang Ampalaya.",
+      "Ginisang Ampalaya is a stir-fried bitter melon in garlic, onion, tomato, spices, and seasonings. The thought we often associate with “ampalaya” is bitterness and a generally unpleasant taste. And while it is true that this vegetable holds this flavor— after all, it is called a bitter melon— it doesn’t always have to taste unfavorable. Some ampalaya can initially have that overpowering bitterness, but with the right preparations, it can actually taste satisfyingly flavorful and delicious. A classic dish that utilizes this unique flavor is Ginisang Ampalaya.",
     ingredients: [
       " \u2022 1 big size ampalaya, cut in half deseeded and sliced crosswise \n",
       " \u2022 4 pcs. egg, beaten \n",
@@ -151,10 +157,11 @@ const foods = [
     id: "8",
     name: "Banana Cue",
     category: "Snack",
-    description: "Banana cue, or also banana Q or banana kyu (Tagalog), is a popular snack food or street food in the Philippines.",
+    description:
+      "Banana cue, or also banana Q or banana kyu (Tagalog), is a popular snack food or street food in the Philippines.",
     fullDescription:
-    "Banana cue, or also banana Q or banana kyu (Tagalog), is a popular snack food or street food in the Philippines. It refers to skewers of deep-fried bananas, traditionally of the Saba (Cardaba) cultivar.",
-    ingredients: [    
+      "Banana cue, or also banana Q or banana kyu (Tagalog), is a popular snack food or street food in the Philippines. It refers to skewers of deep-fried bananas, traditionally of the Saba (Cardaba) cultivar.",
+    ingredients: [
       " \u2022 16 pcs. semi ripe or ripe Saba banana variety \n",
       " \u2022 1/4 cup brown sugar \n",
       " \u2022 2 cups Vegetable cooking oil",
@@ -165,9 +172,10 @@ const foods = [
     id: "9",
     name: "Bibingka",
     category: "Snack",
-    description: "a Philippine cake that is made with rice flour, water, and sometimes other ingredients ",
+    description:
+      "a Philippine cake that is made with rice flour, water, and sometimes other ingredients ",
     fullDescription:
-    "a Philippine cake that is made with rice flour, water, and sometimes other ingredients (such as butter, sugar, cheese, or coconut) and that is traditionally cooked between banana leaves.",
+      "a Philippine cake that is made with rice flour, water, and sometimes other ingredients (such as butter, sugar, cheese, or coconut) and that is traditionally cooked between banana leaves.",
     ingredients: [
       " \u2022 2 cups all purpose flour \n",
       " \u2022 2 tsp baking powder \n",
@@ -186,9 +194,10 @@ const foods = [
     id: "10",
     name: "Buko Pie",
     category: "Snack",
-    description: "a Filipino-style coconut pie made of fresh, tender young coconut meat combined with a creamy filling and enclosed in a flaky pie",
+    description:
+      "a Filipino-style coconut pie made of fresh, tender young coconut meat combined with a creamy filling and enclosed in a flaky pie",
     fullDescription:
-    "Buko pie is a Filipino-style coconut pie made of fresh, tender young coconut meat combined with a creamy filling and enclosed in a flaky pie crust.Buko Pie is the ultimate baked treat! With tender young coconut meat in a creamy filling and a crisp, buttery pastry crust, this Filipino coconut pie is perfect for a snack or dessert!",
+      "Buko pie is a Filipino-style coconut pie made of fresh, tender young coconut meat combined with a creamy filling and enclosed in a flaky pie crust.Buko Pie is the ultimate baked treat! With tender young coconut meat in a creamy filling and a crisp, buttery pastry crust, this Filipino coconut pie is perfect for a snack or dessert!",
     ingredients: [
       " \u2022 2 cups all-purpose flour \n",
       " \u2022 1/3 cup butter \n",
@@ -207,9 +216,10 @@ const foods = [
     id: "11",
     name: "Chicken Curry",
     category: "Lunch",
-    description: "Filipino Style Chicken Curry cooked with potatoes, carrots and capsicum in coconut milk with mild curry powder",
+    description:
+      "Filipino Style Chicken Curry cooked with potatoes, carrots and capsicum in coconut milk with mild curry powder",
     fullDescription:
-    "Filipino Style Chicken Curry is a type of chicken curry cooked with potatoes, carrots and capsicum in coconut milk with mild curry powder.This Pinoy Chicken Curry recipe is the Filipino version of the popular chicken curry dish. It is delicious and easy to cook. The sauce is rich, creamy, and flavorful. It goes well with warm white rice.",
+      "Filipino Style Chicken Curry is a type of chicken curry cooked with potatoes, carrots and capsicum in coconut milk with mild curry powder.This Pinoy Chicken Curry recipe is the Filipino version of the popular chicken curry dish. It is delicious and easy to cook. The sauce is rich, creamy, and flavorful. It goes well with warm white rice.",
     ingredients: [
       " \u2022 1 kilo chicken \n",
       " \u2022 2 medium sized potatoes, chopped \n",
@@ -230,9 +240,10 @@ const foods = [
     id: "12",
     name: "Longsilog",
     category: "Breakfast",
-    description: "Longsilog is a traditional Filipino dish that's served for breakfast.",
+    description:
+      "Longsilog is a traditional Filipino dish that's served for breakfast.",
     fullDescription:
-    "Longsilog is a traditional Filipino dish that's served for breakfast. The dish and its name consist of a combination of longganisa sausage, sinangag (garlic rice), and itlog (fried eggs). The Filipino-style sausages (pork, garlic, vinegar, salt, sugar) are boiled and fried in their own fat until crispy, while the garlic rice and the eggs are fried in oil.",
+      "Longsilog is a traditional Filipino dish that's served for breakfast. The dish and its name consist of a combination of longganisa sausage, sinangag (garlic rice), and itlog (fried eggs). The Filipino-style sausages (pork, garlic, vinegar, salt, sugar) are boiled and fried in their own fat until crispy, while the garlic rice and the eggs are fried in oil.",
     ingredients: [
       " \u2022 4 Cups of left over rice from the previous night \n",
       " \u2022 5 Links of longanisa sausage \n",
@@ -250,9 +261,10 @@ const foods = [
     id: "13",
     name: "Pinakbet",
     category: "Lunch",
-    description: "Pinakbet is made from mixed vegetables sautéed in fish or shrimp sauce",
+    description:
+      "Pinakbet is made from mixed vegetables sautéed in fish or shrimp sauce",
     fullDescription:
-    "Pinakbet is made from mixed vegetables sautéed in fish or shrimp sauce. The word is the contracted form of the Ilokano word pinakebbet, meaning shrunk or shriveled. The original Ilocano pinakbet uses bagoong of fermented monamon or other fish, for seasoning sauce, while further south, bagoong alamang is used.",
+      "Pinakbet is made from mixed vegetables sautéed in fish or shrimp sauce. The word is the contracted form of the Ilokano word pinakebbet, meaning shrunk or shriveled. The original Ilocano pinakbet uses bagoong of fermented monamon or other fish, for seasoning sauce, while further south, bagoong alamang is used.",
     ingredients: [
       " \u2022 1/2 pound pork (liempo with skin & fat) \n",
       " \u2022 4 Cloves garlic \n",
@@ -272,9 +284,10 @@ const foods = [
     id: "14",
     name: "Buko Salad",
     category: "Dessert",
-    description: " Sweet young coconut salad is a dessert dish that makes use of shredded young coconut as the main ingredient",
+    description:
+      " Sweet young coconut salad is a dessert dish that makes use of shredded young coconut as the main ingredient",
     fullDescription:
-    "Buko Salad or sweet young coconut salad is a dessert dish that makes use of shredded young coconut as the main ingredient. This delicious dessert recipe is a mainstay in every special occasion in the Philippines; it is often served as dessert in town fiestas and birthday parties.",
+      "Buko Salad or sweet young coconut salad is a dessert dish that makes use of shredded young coconut as the main ingredient. This delicious dessert recipe is a mainstay in every special occasion in the Philippines; it is often served as dessert in town fiestas and birthday parties.",
     ingredients: [
       " \u2022 4 cups young coconut (buko), shredded \n",
       " \u2022 6 ounces sugar palm fruit (kaong), drained \n",
@@ -290,9 +303,10 @@ const foods = [
     id: "15",
     name: "Spaghetti",
     category: "Snack",
-    description: "Filipino Spaghetti is the Pinoy version of Spaghetti with meat sauce.",
+    description:
+      "Filipino Spaghetti is the Pinoy version of Spaghetti with meat sauce.",
     fullDescription:
-    "Filipino spaghetti is a Filipino adaptation of Italian spaghetti with Bolognese sauce. It has a distinctively sweet sauce, usually made from tomato sauce sweetened with brown sugar or banana ketchup. It is typically topped with sliced hot dogs or smoked longganisa sausages, giniling (ground meat), and grated cheese.",
+      "Filipino spaghetti is a Filipino adaptation of Italian spaghetti with Bolognese sauce. It has a distinctively sweet sauce, usually made from tomato sauce sweetened with brown sugar or banana ketchup. It is typically topped with sliced hot dogs or smoked longganisa sausages, giniling (ground meat), and grated cheese.",
     ingredients: [
       " \u2022 1 kg. spaghetti noodles \n",
       " \u2022 1/2 kg. ground beef \n",
@@ -317,7 +331,7 @@ const foods = [
     category: "Lunch",
     description: "Type of soup with mussels",
     fullDescription:
-    "Tinolang Tahong is a type of soup with mussels.  Fresh mussels are cooked in ginger broth. Veggies such as spinach or hot pepper leaves along with long green pepper are also used to make this dish.",
+      "Tinolang Tahong is a type of soup with mussels.  Fresh mussels are cooked in ginger broth. Veggies such as spinach or hot pepper leaves along with long green pepper are also used to make this dish.",
     ingredients: [
       " \u2022 1 lb mussels (tahong), cleaned \n",
       " \u2022 2 cups spinach \n",
@@ -335,9 +349,10 @@ const foods = [
     id: "17",
     name: "Turon",
     category: "Snack",
-    description: "Turon is a popular Filipino snack that's sweet, crunchy, and satisfying.",
+    description:
+      "Turon is a popular Filipino snack that's sweet, crunchy, and satisfying.",
     fullDescription:
-    "Turon is a popular Filipino snack that's sweet, crunchy, and satisfying. Ripe saba banana, jackfruit, and brown sugar are rolled together in a flour lumpia wrapper and fried to a golden crisp.",
+      "Turon is a popular Filipino snack that's sweet, crunchy, and satisfying. Ripe saba banana, jackfruit, and brown sugar are rolled together in a flour lumpia wrapper and fried to a golden crisp.",
     ingredients: [
       " \u2022 6 pcs saba bananas (or plantains), cut in half (lenghtwise) \n",
       " \u2022 1 cup ripe Jackfruit \n",
@@ -351,9 +366,10 @@ const foods = [
     id: "18",
     name: "Ukoy",
     category: "Lunch",
-    description: "Filipino crispy deep-fried fritters made with glutinous rice batter, unshelled small shrimp, and various vegetables",
+    description:
+      "Filipino crispy deep-fried fritters made with glutinous rice batter, unshelled small shrimp, and various vegetables",
     fullDescription:
-    "Ukoy are crispy, deep fried shrimp fritters made with a pancake-like batter, unshelled shrimp and various vegetables, including calabasa (squash), sweet potato (camote), yuca, mung bean sprouts (tongue), scallions and julienned carrots, onions and green papaya. Although these shrimp fritters started as an afternoon snack in the Philippines, it has now evolved as a side dish served in many restaurants.",
+      "Ukoy are crispy, deep fried shrimp fritters made with a pancake-like batter, unshelled shrimp and various vegetables, including calabasa (squash), sweet potato (camote), yuca, mung bean sprouts (tongue), scallions and julienned carrots, onions and green papaya. Although these shrimp fritters started as an afternoon snack in the Philippines, it has now evolved as a side dish served in many restaurants.",
     ingredients: [
       " \u2022 3 cups silverfish \n",
       " \u2022 1 tsp salt \n",
@@ -371,7 +387,6 @@ const foods = [
     ],
     image: require("../assets/recipes/ukoy.jpg"),
   },
-
 ];
 
 export default foods;

@@ -15,6 +15,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import FoodList from "./FoodList";
 import RecipeList from "./RecipeList";
+import Dummy from "./Dummy";
 
 const Stack = createStackNavigator();
 
@@ -26,6 +27,7 @@ export default class Recipes extends Component {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="FoodList" component={FoodList}></Stack.Screen>
           <Stack.Screen name="RecipeList" component={RecipeList}></Stack.Screen>
+          <Stack.Screen name="Dummy" component={Dummy}></Stack.Screen>
         </Stack.Navigator>
       </SafeAreaView>
     );
