@@ -15,7 +15,7 @@ const steps = [
     content:
       "3.When the onion starts to get soft, add the chicken. Cook for 5 minutes or until it turns light brown.",
     counter: {
-      until: 60 * 0 + 10,
+      until: 60 * 5 + 0,
       size: 20,
       // onFinish={() => alert('Finished')}
       digitStyle: { backgroundColor: "#FFF" },

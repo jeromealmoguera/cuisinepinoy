@@ -1,6 +1,23 @@
 import tinola from "../const/tinola";
+import Spag from "../const/Spag";
+import Salad from "../const/Salad";
+import Ampalaya from "../const/Ampalaya";
+import AdobongIsda from "../const/AdobongIsda";
+import AdobongSitaw from "../const/AdobongSitaw";
+import BananaQue from "../const/BananaQue";
+import Bibingka from "../const/Bibingka";
+import BukoPie from "../const/BukoPie";
+import Longsilog from "../const/Longsilog";
+import Pinakbet from "../const/Pinakbet";
+import Sinangag from "../const/Sinangag";
+import Turon from "../const/Turon";
+import Ukoy from "../const/Ukoy";
+import TinolangTahong from "../const/TinolangTahong";
+import ChickenCurry from "../const/ChickenCurry";
+import Alimasag from "../const/Alimasag";
+import Goto from "../const/Goto";
 
-// import * as Recipe from "../const";
+
 
 const foods = [
   {
@@ -21,7 +38,7 @@ const foods = [
       " \u2022 1 litre of water or more \n",
       " \u2022 1/4 cup toasted garlic",
     ],
-    recipe: tinola,
+    recipe: Goto,
     image: require("../assets/recipes/goto.jpg"),
   },
   {
@@ -45,6 +62,7 @@ const foods = [
       " \u2022 1 bunch fresh spinach \n",
       " \u2022 6 pieces Thai chili",
     ],
+    recipe: Alimasag,
     image: require("../assets/recipes/ginataang-alimasag.jpg"),
   },
   {
@@ -92,6 +110,7 @@ const foods = [
       " \u2022 2 well beaten eggs; fried and sliced in pieces \n",
       " \u2022 1/4 cup leftover Luncheon Meat or Ham",
     ],
+    recipe: Sinangag,
     image: require("../assets/recipes/sinangag.jpg"),
   },
   {
@@ -113,6 +132,7 @@ const foods = [
       " \u2022 3 pieces Finger chili (siling haba) \n",
       " \u2022 salt and pepper to taste",
     ],
+    recipe: AdobongIsda,
     image: require("../assets/recipes/adobong-isda.jpg"),
   },
   {
@@ -133,6 +153,7 @@ const foods = [
       " \u2022 1/2 teaspoon ground black pepper \n",
       " \u2022 1 cup water",
     ],
+    recipe: AdobongSitaw,
     image: require("../assets/recipes/adobong-sitaw.jpg"),
   },
   {
@@ -151,6 +172,7 @@ const foods = [
       " \u2022 salt and pepper \n",
       " \u2022 vegetable oil",
     ],
+    recipe: Ampalaya,
     image: require("../assets/recipes/ampalaya.jpg"),
   },
   {
@@ -166,6 +188,7 @@ const foods = [
       " \u2022 1/4 cup brown sugar \n",
       " \u2022 2 cups Vegetable cooking oil",
     ],
+    recipe: BananaQue,
     image: require("../assets/recipes/banana-que.jpg"),
   },
   {
@@ -188,6 +211,7 @@ const foods = [
       " \u2022 Â1/2 cup grated cheese \n",
       " \u2022 2 pcs salted eggs, sliced",
     ],
+    recipe: Bibingka,
     image: require("../assets/recipes/bibingka.jpg"),
   },
   {
@@ -210,6 +234,7 @@ const foods = [
       " \u2022 1/2 cup cornstarch diluted in 1/2 cup young coconut water \n",
       " \u2022 1/2 cup evaporated milk",
     ],
+    recipe: BukoPie,
     image: require("../assets/recipes/buko-pie.jpg"),
   },
   {
@@ -234,6 +259,7 @@ const foods = [
       " \u2022 1 thumb ginger, cut into strips \n",
       " \u2022 1 cup water",
     ],
+    recipe: ChickenCurry,
     image: require("../assets/recipes/chicken-curry.jpg"),
   },
   {
@@ -255,6 +281,7 @@ const foods = [
       " \u2022 ¼ Tbs. MSG \n",
       " \u2022 Oil for frying",
     ],
+    recipe: Longsilog,
     image: require("../assets/recipes/longsilog.jpg"),
   },
   {
@@ -278,6 +305,7 @@ const foods = [
       " \u2022 1 Pork Cube (Maggi or Knorr) \n",
       " \u2022 Salt",
     ],
+    recipe: Pinakbet,
     image: require("../assets/recipes/pinakbet.jpg"),
   },
   {
@@ -297,6 +325,7 @@ const foods = [
       " \u2022 1 (14 ounce) can sweetened condensed milk \n",
       " \u2022 7 ounces table cream",
     ],
+    recipe: Salad,
     image: require("../assets/recipes/salad.jpg"),
   },
   {
@@ -323,6 +352,7 @@ const foods = [
       " \u2022 Salt and pepper to taste \n",
       " \u2022 1/2 cup grated cheese",
     ],
+    recipe: Spag,
     image: require("../assets/recipes/spag.jpg"),
   },
   {
@@ -343,6 +373,7 @@ const foods = [
       " \u2022 3 cups water \n",
       " \u2022 2 tablespoons cooking oil",
     ],
+    recipe: TinolangTahong,
     image: require("../assets/recipes/tinolang-tahong.jpg"),
   },
   {
@@ -360,6 +391,7 @@ const foods = [
       " \u2022 12 pcs spring roll wrapper \n",
       " \u2022 2 cups cooking oil",
     ],
+    recipe: Turon,
     image: require("../assets/recipes/turon.jpg"),
   },
   {
@@ -385,6 +417,7 @@ const foods = [
       " \u2022 1/4 tsp salt \n",
       " \u2022 1/8 tsp ground pepper",
     ],
+    recipe: Ukoy,
     image: require("../assets/recipes/ukoy.jpg"),
   },
 ];

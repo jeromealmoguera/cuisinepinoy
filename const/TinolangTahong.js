@@ -16,6 +16,15 @@ const steps = [
   {
     content:
       "5. Add salt and pepper. Stir and cook for 8 to 10 minutes.",
+      counter: {
+        until: 60 * 10 + 0,
+        size: 20,
+        // onFinish={() => alert('Finished')}
+        digitStyle: { backgroundColor: "#FFF" },
+        digitTxtStyle: { color: "#1CC625" },
+        timeToShow: ["M", "S"],
+        timeLabels: { m: "Min", s: "Sec" },
+      },
   },
   {
     content:

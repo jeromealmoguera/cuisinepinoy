@@ -4,6 +4,15 @@ const steps = [
   },
   {
     content: "2. Turn to high heat, then add rice and thoroughly mix well for 5 minutes with the other ingredients.",
+    counter: {
+      until: 60 * 5 + 0,
+      size: 20,
+      // onFinish={() => alert('Finished')}
+      digitStyle: { backgroundColor: "#FFF" },
+      digitTxtStyle: { color: "#1CC625" },
+      timeToShow: ["M", "S"],
+      timeLabels: { m: "Min", s: "Sec" },
+    },
   },
   {
     content:
