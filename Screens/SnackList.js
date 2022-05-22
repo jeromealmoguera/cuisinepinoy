@@ -10,13 +10,13 @@ import {
 } from "react-native";
 // import { createStackNavigator } from "@react-navigation/stack";
 
-import Foods from "../const/Foods";
+import Snack from "../const/Snack";
 import * as Font from "expo-font";
 // import Foodings from "../const/Foodings";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 // const Stack = createStackNavigator();
-export default class FoodList extends Component {
+export default class SnackList extends Component {
   state = {
     fontLoaded: false,
   };
@@ -28,13 +28,14 @@ export default class FoodList extends Component {
   async loadAssetsAsync() {
     await Font.loadAsync({
       Raleway: require("../assets/fonts/Raleway.ttf"),
-      RalewayBlack: require("../assets/fonts/Raleway-Black.ttf"),
-      RalewayBold: require("../assets/fonts/Raleway-Bold.ttf"),
-      RalewaySemiBold: require("../assets/fonts/Raleway-SemiBold.ttf"),
       RalewayItalic: require("../assets/fonts/Raleway-Italic.ttf"),
-      RalewayLight: require("../assets/fonts/Raleway-Light.ttf"),
       RalewayThin: require("../assets/fonts/Raleway-Thin.ttf"),
+      RalewayLight: require("../assets/fonts/Raleway-Light.ttf"),
       RalewayMedium: require("../assets/fonts/Raleway-Medium.ttf"),
+      RalewaySemiBold: require("../assets/fonts/Raleway-SemiBold.ttf"),
+      RalewayBold: require("../assets/fonts/Raleway-Bold.ttf"),
+      RalewayExtraBold: require("../assets/fonts/Raleway-ExtraBold.ttf"),
+      RalewayBlack: require("../assets/fonts/Raleway-Black.ttf"),
     });
     this.setState({ fontLoaded: true });
   }
@@ -104,8 +105,8 @@ export default class FoodList extends Component {
           </View>
 
           <FlatList
+            data={Snack}
             style={styles.mainList}
-            data={Foods}
             keyExtractor={(item) => item.id}
             showsVerticalScrollIndicator={false}
             renderItem={({ item }) => {
@@ -114,15 +115,19 @@ export default class FoodList extends Component {
                   onPress={() => {
                     this.props.navigation.navigate("RecipeList", {
                       name: item.name,
+                      category: item.category,
                       description: item.description,
+                      fullDescription: item.fullDescription,
                       image: item.image,
                       recipe: item.recipe,
+                      ingredients: item.ingredients,
                     });
                   }}
                 >
                   <View style={styles.itemContainer}>
                     <View style={styles.itemList}>
                       <Text style={styles.name}>{item.name}</Text>
+                      <Text style={styles.category}>{item.category}</Text>
                       <Text style={styles.description}>{item.description}</Text>
                       <Image source={item.image} style={styles.image} />
                     </View>
@@ -144,6 +149,7 @@ const styles = StyleSheet.create({
     fontFamily: "RalewayBlack",
     position: "absolute",
   },
+
   subTitle: {
     fontFamily: "RalewayMedium",
     fontSize: 15,
@@ -151,12 +157,14 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 60,
   },
+
   fixToText: {
     flex: 1,
     position: "absolute",
     flexDirection: "row",
     top: 90,
   },
+
   button: {
     justifyContent: "space-between",
     width: 90,
@@ -165,6 +173,7 @@ const styles = StyleSheet.create({
     borderRadius: 100,
     backgroundColor: "#ffcf5c",
   },
+
   buttonText: {
     fontFamily: "Raleway",
     textAlign: "center",
@@ -172,33 +181,52 @@ const styles = StyleSheet.create({
     color: "white",
     justifyContent: "center",
   },
+
   itemContainer: {
     flex: 1,
   },
+
   itemList: {
     // height: "50%",
     margin: 5,
     padding: 5,
     borderRadius: 10,
     height: 150,
-
     backgroundColor: "#FEC633",
   },
+
   mainList: {
     flex: 1,
     top: 150,
     marginBottom: 130,
   },
+
   name: {
     width: "50%",
-    fontSize: 18,
-    fontFamily: "RalewayBold",
+    fontSize: 20,
+    fontFamily: "RalewayExtraBold",
   },
+
+  category: {
+    marginTop: 3,
+    paddingLeft: 8,
+    paddingRight: 8,
+    borderRadius: 25,
+    fontSize: 12,
+    alignContent: "center",
+    justifyContent: "center",
+    fontFamily: "Raleway",
+    alignSelf: "flex-start",
+    backgroundColor: "#f69250",
+  },
+
   description: {
+    marginTop: 5,
     width: "50%",
     fontSize: 13,
     fontFamily: "Raleway",
   },
+
   image: {
     width: "50%",
     height: 150,

@@ -15,6 +15,15 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import FoodList from "./FoodList";
 import RecipeList from "./RecipeList";
+<<<<<<< Updated upstream
+=======
+import Dummy from "./Dummy";
+import LunchList from "./LunchList";
+import BreakfastList from "./BreakfastList";
+import SnackList from "./SnackList";
+import DessertList from "./DessertList";
+
+>>>>>>> Stashed changes
 
 const Stack = createStackNavigator();
 
@@ -26,6 +35,14 @@ export default class Recipes extends Component {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="FoodList" component={FoodList}></Stack.Screen>
           <Stack.Screen name="RecipeList" component={RecipeList}></Stack.Screen>
+<<<<<<< Updated upstream
+=======
+          <Stack.Screen name="Dummy" component={Dummy}></Stack.Screen>
+          <Stack.Screen name="LunchList" component={LunchList}></Stack.Screen>
+          <Stack.Screen name="BreakfastList" component={BreakfastList}></Stack.Screen>
+          <Stack.Screen name="SnackList" component={SnackList}></Stack.Screen>
+          <Stack.Screen name="DessertList" component={DessertList}></Stack.Screen>
+>>>>>>> Stashed changes
         </Stack.Navigator>
       </SafeAreaView>
     );
