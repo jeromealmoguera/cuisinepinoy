@@ -54,7 +54,7 @@ render(){
           <Text style={{fontSize: 15, color:"black" }}>1. Heat a cooking pot and pour-in cooking oil.</Text>
           <Text style={{fontSize: 15, color:"black" }}>2. Saute garlic and onion.</Text>
           <Text style={{fontSize: 15, color:"black" }}>3. Add ginger and mussels, and then cook for a minute.</Text>
-          <Text style={{fontSize: 15, color:"black" }}>4. Pour-in water. let boil.</Text>
+          <Text style={{fontSize: 15, color:"black" }}>4. Pour-in water. Let boil.</Text>
           <Text style={{fontSize: 15, color:"black" }}>5. Add salt and pepper. Stir and cook for 8 to 10 minutes.</Text>
           <Text style={{fontSize: 15, color:"black" }}>6. Put-in the spinach. Turn the heat off and cover the pot.</Text>
           <Text style={{fontSize: 15, color:"black" }}>7. Allow the residual heat to cook the spinach.</Text>
