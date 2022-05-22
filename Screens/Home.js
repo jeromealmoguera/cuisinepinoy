@@ -83,9 +83,7 @@ export default class Home extends Component {
           </View>
           <Text style={styles.weekRecipe}>RECIPE OF THE WEEK</Text>
           <View>
-              <TouchableOpacity style={styles.recipeWeek}>
-              </TouchableOpacity>
-
+            <TouchableOpacity style={styles.recipeWeek}></TouchableOpacity>
           </View>
         </View>
       </View>
@@ -95,7 +93,7 @@ export default class Home extends Component {
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: 40,
+    fontSize: 30,
     color: "black",
     fontFamily: "RalewayBlack",
     position: "absolute",
@@ -106,20 +104,20 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: "black",
     position: "absolute",
-    top: 160,
+    top: 130,
   },
   weekRecipe: {
     fontFamily: "RalewayMedium",
     fontSize: 15,
     color: "black",
     position: "absolute",
-    top: 380,
+    top: 330,
   },
   fixToText: {
     flex: 1,
     position: "absolute",
     flexDirection: "row",
-    top: 200,
+    top: 170,
   },
   button: {
     justifyContent: "space-between",
@@ -145,7 +143,6 @@ const styles = StyleSheet.create({
     marginRight: 15,
     borderRadius: 10,
     backgroundColor: "#ffcf5c",
-    top: 420,
+    top: 370,
   },
-}
-);
+});

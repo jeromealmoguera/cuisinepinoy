@@ -33,9 +33,15 @@ export default class Recipes extends Component {
           <Stack.Screen name="RecipeList" component={RecipeList}></Stack.Screen>
           <Stack.Screen name="Dummy" component={Dummy}></Stack.Screen>
           <Stack.Screen name="LunchList" component={LunchList}></Stack.Screen>
-          <Stack.Screen name="BreakfastList" component={BreakfastList}></Stack.Screen>
+          <Stack.Screen
+            name="BreakfastList"
+            component={BreakfastList}
+          ></Stack.Screen>
           <Stack.Screen name="SnackList" component={SnackList}></Stack.Screen>
-          <Stack.Screen name="DessertList" component={DessertList}></Stack.Screen>
+          <Stack.Screen
+            name="DessertList"
+            component={DessertList}
+          ></Stack.Screen>
         </Stack.Navigator>
       </SafeAreaView>
     );

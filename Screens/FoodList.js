@@ -62,43 +62,48 @@ export default class FoodList extends Component {
               style={styles.fixToText}
               showsHorizontalScrollIndicator={false}
             >
-            <TouchableOpacity style={styles.button}
-              onPress={() => {
-                this.props.navigation.navigate("FoodList");
-              }}
-            >
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => {
+                  this.props.navigation.navigate("FoodList");
+                }}
+              >
                 <Text style={styles.buttonText}>All</Text>
               </TouchableOpacity>
 
-              <TouchableOpacity style={styles.button}
-               onPress={() => {
-                this.props.navigation.navigate("BreakfastList");
-              }}
-            >
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => {
+                  this.props.navigation.navigate("BreakfastList");
+                }}
+              >
                 <Text style={styles.buttonText}>Breakfast</Text>
               </TouchableOpacity>
 
-              <TouchableOpacity style={styles.button}
-               onPress={() => {
-                this.props.navigation.navigate("LunchList");
-              }}
-            >
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => {
+                  this.props.navigation.navigate("LunchList");
+                }}
+              >
                 <Text style={styles.buttonText}>Lunch</Text>
               </TouchableOpacity>
 
-              <TouchableOpacity style={styles.button}
-               onPress={() => {
-                this.props.navigation.navigate("SnackList");
-              }}
-            >
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => {
+                  this.props.navigation.navigate("SnackList");
+                }}
+              >
                 <Text style={styles.buttonText}>Snack</Text>
               </TouchableOpacity>
 
-              <TouchableOpacity style={styles.button}
-               onPress={() => {
-                this.props.navigation.navigate("DessertList");
-              }}
-            >
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => {
+                  this.props.navigation.navigate("DessertList");
+                }}
+              >
                 <Text style={styles.buttonText}>Dessert</Text>
               </TouchableOpacity>
             </ScrollView>
