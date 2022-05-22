@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
   description: {
     marginTop: 5,
     width: "50%",
-    fontSize: 13,
+    fontSize: 10,
     fontFamily: "Raleway",
   },
 

@@ -65,6 +65,7 @@ export default class RecipeList extends Component {
               onPress={() => {
                 this.props.navigation.navigate("Dummy", {
                   recipe: this.props.route.params.recipe,
+                  image: this.props.route.params.image,
                 });
               }}
             >
