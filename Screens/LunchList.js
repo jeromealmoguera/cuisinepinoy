@@ -9,14 +9,14 @@ import {
   ScrollView,
 } from "react-native";
 // import { createStackNavigator } from "@react-navigation/stack";
-
-import Foods from "../const/Foods";
+import Lunch from "../const/Lunch";
+// import Foods from "../const/Foods";
 import * as Font from "expo-font";
 // import Foodings from "../const/Foodings";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 // const Stack = createStackNavigator();
-export default class FoodList extends Component {
+export default class LunchList extends Component {
   state = {
     fontLoaded: false,
   };
@@ -105,7 +105,7 @@ export default class FoodList extends Component {
           </View>
 
           <FlatList
-            data={Foods}
+            data={Lunch}
             style={styles.mainList}
             keyExtractor={(item) => item.id}
             showsVerticalScrollIndicator={false}
@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
   description: {
     marginTop: 5,
     width: "50%",
-    fontSize: 10,
+    fontSize: 13,
     fontFamily: "Raleway",
   },
 
