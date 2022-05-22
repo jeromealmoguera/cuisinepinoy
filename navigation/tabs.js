@@ -40,9 +40,9 @@ export default class tabs extends Component {
       >
         <Tab.Screen name="Home" component={Screens.Home} />
         <Tab.Screen name="Recipes" component={Screens.Recipes} />
-        <Tab.Screen name="Categories" component={Screens.Categories} />
+        {/* <Tab.Screen name="Categories" component={Screens.Categories} /> */}
         <Tab.Screen name="Favourites" component={Screens.Favourites} />
-        <Tab.Screen name="Dummy" component={Screens.Dummy} />
+        {/* <Tab.Screen name="Dummy" component={Screens.Dummy} /> */}
       </Tab.Navigator>
     );
   }

@@ -1,4 +1,10 @@
 const steps = [
+  // "1.Heat oil in a pot.",
+  // "2.Sauté garlic, onion, and ginger. Add the ground black pepper.",
+  // "3.When the onion starts to get soft, add the chicken. Cook for 5 minutes or until it turns light brown.",
+  // "4.Pour the water. Let boil. Cover and then set the heat to low. Boil for 40 minutes.",
+  // "5.Scoop and discard the scums and oil on the soup.",
+  //** ------------------------------ **/
   {
     content: "1.Heat oil in a pot.",
   },
@@ -9,7 +15,7 @@ const steps = [
     content:
       "3.When the onion starts to get soft, add the chicken. Cook for 5 minutes or until it turns light brown.",
     counter: {
-      until: 60 * 0 + 10,
+      until: 60 * 5 + 0,
       size: 20,
       // onFinish={() => alert('Finished')}
       digitStyle: { backgroundColor: "#FFF" },

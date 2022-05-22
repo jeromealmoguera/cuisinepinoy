@@ -58,8 +58,8 @@ render(){
           <Text style={{fontSize: 15, color:"black" }}>1. In a bowl, combine all ingredients together.</Text>
           <Text style={{fontSize: 15, color:"black" }}>2. Heat the oil in a frying pan.</Text>
           <Text style={{fontSize: 15, color:"black" }}>3. When hot, drop about 3 tbsp of the mixture into the hot oil, flatten with a spoon and fry over medium heat until crisp and both sides are brown.</Text>
-          <Text style={{fontSize: 15, color:"black" }}>3. Remove from the pan and drain on paper towels.</Text>
-          <Text style={{fontSize: 15, color:"black" }}>3. Serve with garlic vinegar sauce.Serve hot & crispy. Enjoy!</Text>
+          <Text style={{fontSize: 15, color:"black" }}>4. Remove from the pan and drain on paper towels.</Text>
+          <Text style={{fontSize: 15, color:"black" }}>5. Serve with garlic vinegar sauce.Serve hot & crispy. Enjoy!</Text>
               
         </ScrollView>
         </View>

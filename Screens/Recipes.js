@@ -21,7 +21,6 @@ import BreakfastList from "./BreakfastList";
 import SnackList from "./SnackList";
 import DessertList from "./DessertList";
 
-
 const Stack = createStackNavigator();
 
 // const Stack = createStackNavigator();

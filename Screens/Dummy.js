@@ -10,10 +10,14 @@ export default class Dummy extends Component {
   state = {
     currentIndex: 0,
     isAutoPlay: false,
-    steps: Steps,
+    steps: [],
   };
 
-  componentDidMount() {}
+  componentDidMount() {
+    if (this.props.route.params.recipe) {
+      this.setState({ steps: this.props.route.params.recipe });
+    }
+  }
 
   onIndexChanged(index) {
     this.setState({ currentIndex: index, isAutoPlay: false });
@@ -27,6 +31,7 @@ export default class Dummy extends Component {
     return (
       <View style={{ flex: 1, alignItems: "center" }}>
         <Text style={{ fontSize: 30, color: "black" }}> Directions</Text>
+        <Image style={styles.image} source={this.props.route.params.image} />
         <Swiper
           style={styles.wrapper}
           renderPagination={renderPagination}
@@ -66,7 +71,14 @@ const styles = {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#9DD6EB",
+    position: "absolute",
+    // borderRadius: 20,
+    height: "75%",
+    bottom: 0,
+    width: "100%",
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    backgroundColor: "#ffcf5c",
   },
   text: {
     color: "#fff",
