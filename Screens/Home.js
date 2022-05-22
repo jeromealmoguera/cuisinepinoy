@@ -54,7 +54,6 @@ export default class Home extends Component {
           {/* {renderRecipes()} */}
           <Text style={styles.title}>READY FOR COOKING?</Text>
           <Text style={styles.subTitle}>RECENTLY VIEWED</Text>
-
           <View>
             <ScrollView
               horizontal

@@ -16,6 +16,10 @@ import { createStackNavigator } from "@react-navigation/stack";
 import FoodList from "./FoodList";
 import RecipeList from "./RecipeList";
 import Dummy from "./Dummy";
+import LunchList from "./LunchList";
+import BreakfastList from "./BreakfastList";
+import SnackList from "./SnackList";
+import DessertList from "./DessertList";
 
 const Stack = createStackNavigator();
 
@@ -28,6 +32,10 @@ export default class Recipes extends Component {
           <Stack.Screen name="FoodList" component={FoodList}></Stack.Screen>
           <Stack.Screen name="RecipeList" component={RecipeList}></Stack.Screen>
           <Stack.Screen name="Dummy" component={Dummy}></Stack.Screen>
+          <Stack.Screen name="LunchList" component={LunchList}></Stack.Screen>
+          <Stack.Screen name="BreakfastList" component={BreakfastList}></Stack.Screen>
+          <Stack.Screen name="SnackList" component={SnackList}></Stack.Screen>
+          <Stack.Screen name="DessertList" component={DessertList}></Stack.Screen>
         </Stack.Navigator>
       </SafeAreaView>
     );
