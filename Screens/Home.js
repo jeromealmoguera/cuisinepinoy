@@ -88,9 +88,7 @@ export default class Home extends Component {
             <ImageBackground
               source={require("../assets/two.jpg")}
               style={styles.recipeWeek}
-            >
-              {/* <Text>S</Text> */}
-            </ImageBackground>
+            ></ImageBackground>
           </TouchableOpacity>
         </View>
       </View>
@@ -144,7 +142,7 @@ const styles = StyleSheet.create({
   },
   recipeWeek: {
     justifyContent: "space-between",
-    width: 320,
+    width: 440,
     height: 200,
     padding: 7,
     marginRight: 15,
