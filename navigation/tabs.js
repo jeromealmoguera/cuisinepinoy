@@ -13,7 +13,7 @@ export default class tabs extends Component {
   render() {
     return (
       <Tab.Navigator
-        initialRouteName="Recipes"
+        initialRouteName="Home"
         screenOptions={({ route }) => ({
           tabBarIcon: ({ focused, color, size }) => {
             let iconName;

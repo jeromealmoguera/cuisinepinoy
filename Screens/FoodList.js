@@ -149,10 +149,11 @@ export default class FoodList extends Component {
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: 40,
+    fontSize: 30,
     color: "black",
     fontFamily: "RalewayBlack",
     position: "absolute",
+    // top: 20,
   },
 
   subTitle: {

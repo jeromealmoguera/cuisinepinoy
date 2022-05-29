@@ -7,6 +7,7 @@ import {
   Image,
   FlatList,
   ScrollView,
+  ImageBackground,
 } from "react-native";
 // import { createStackNavigator } from "@react-navigation/stack";
 
@@ -14,6 +15,7 @@ import Foods from "../const/Foods";
 import * as Font from "expo-font";
 // import Foodings from "../const/Foodings";
 import { SafeAreaView } from "react-native-safe-area-context";
+// import { ImageBackground } from "react-native-web";
 
 // const Stack = createStackNavigator();
 export default class Home extends Component {
@@ -82,9 +84,14 @@ export default class Home extends Component {
             </ScrollView>
           </View>
           <Text style={styles.weekRecipe}>RECIPE OF THE WEEK</Text>
-          <View>
-            <TouchableOpacity style={styles.recipeWeek}></TouchableOpacity>
-          </View>
+          <TouchableOpacity>
+            <ImageBackground
+              source={require("../assets/two.jpg")}
+              style={styles.recipeWeek}
+            >
+              {/* <Text>S</Text> */}
+            </ImageBackground>
+          </TouchableOpacity>
         </View>
       </View>
     );
@@ -143,6 +150,11 @@ const styles = StyleSheet.create({
     marginRight: 15,
     borderRadius: 10,
     backgroundColor: "#ffcf5c",
+    overflow: "hidden",
     top: 370,
+  },
+  backgroundImage: {
+    width: 320,
+    height: 200,
   },
 });
