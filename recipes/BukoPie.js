@@ -37,7 +37,7 @@ render(){
           bottom: 0}}>
 
 <Text style={{margin:20,fontSize: 24, color:"black" }}>Buko Pie</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>2 cups all-purpose flour</Text>
           <Text style={{fontSize: 15, color:"black" }}>1/3 cup butter</Text>

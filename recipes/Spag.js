@@ -37,7 +37,7 @@ render(){
           bottom: 0}}>
 
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Spaghetti</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>1 kg. spaghetti noodles</Text>
           <Text style={{fontSize: 15, color:"black" }}>1/2 kg. ground beef</Text>

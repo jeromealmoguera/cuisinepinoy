@@ -37,7 +37,7 @@ render(){
           bottom: 0}}>
 
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Longsilog</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>4 Cups of left over rice from the previous night</Text>
           <Text style={{fontSize: 15, color:"black" }}>5 Links of longanisa sausage</Text>

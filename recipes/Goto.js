@@ -53,7 +53,7 @@ export default class Goto extends Component {
           }}
         >
           <Text style={{ margin: 20, fontSize: 24, color: "black" }}>Goto</Text>
-          <Text style={{ fontSize: 18, color: "black" }}>Ingredients</Text>
+          <Text style={{ fontSize: 18, color: "black" }}>INGREDIENTS</Text>
 
           <Text style={{ fontSize: 15, color: "black" }}>1 cup rice</Text>
           <Text style={{ fontSize: 15, color: "black" }}>
@@ -67,10 +67,10 @@ export default class Goto extends Component {
             3 stalks spring onions
           </Text>
           <Text style={{ fontSize: 15, color: "black" }}>
-            salt and pepper to taste
+            Salt and pepper to taste
           </Text>
           <Text style={{ fontSize: 15, color: "black" }}>
-            fish sauce( patis=optional)
+            Fish sauce( patis=optional)
           </Text>
           <Text style={{ fontSize: 15, color: "black" }}>
             1 litre of water or more

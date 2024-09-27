@@ -36,7 +36,7 @@ render(){
           position: 'absolute',
           bottom: 0}}>
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Buko Salad</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>4 cups young coconut (buko), shredded</Text>
           <Text style={{fontSize: 15, color:"black" }}>6 ounces sugar palm fruit (kaong), drained</Text>

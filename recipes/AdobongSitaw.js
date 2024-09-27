@@ -36,7 +36,7 @@ render(){
           position: 'absolute',
           bottom: 0}}>
           <Text style={{margin:20,fontSize: 24, color:"black" }}>Adobong Sitaw</Text>
-          <Text style={{fontSize: 18, color:"black" }}>Ingredients</Text>
+          <Text style={{fontSize: 18, color:"black" }}>INGREDIENTS</Text>
 
           <Text style={{fontSize: 15, color:"black" }}>1 lb string beans (sitaw), cut in 2 inch length</Text>
           <Text style={{fontSize: 15, color:"black" }}>1/4 lb pork belly, thinly sliced (optional)</Text>

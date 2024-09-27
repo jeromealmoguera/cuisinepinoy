@@ -56,7 +56,7 @@ export default class TinolangManok extends Component {
           <Text style={{ margin: 20, fontSize: 24, color: "black" }}>
             Tinolang Manok
           </Text>
-          <Text style={{ fontSize: 18, color: "black" }}>Ingredients</Text>
+          <Text style={{ fontSize: 18, color: "black" }}>INGREDIENTS</Text>
 
           <Text style={{ fontSize: 15, color: "black" }}>
             2 lbs. chicken cut into serving pieces
